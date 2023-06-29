@@ -13,7 +13,7 @@ function letterCombinations(input) {
 		
 		"9":"wxyz"
 	}
-let let solution=[];
+let solution=[];
 
 	function solve(currindex,calculatedString){
 		if(input.lenght<=currindex){
