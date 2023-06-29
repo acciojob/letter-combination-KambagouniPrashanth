@@ -27,6 +27,9 @@ let solution=[];
 			
 		}
 	}
+	solve(0,"");
+	return solution;
+	
 	
 }
 
