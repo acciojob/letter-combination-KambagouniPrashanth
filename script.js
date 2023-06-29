@@ -23,7 +23,7 @@ let solution=[];
 		let currchar=input[currindex];
 
 		for(let i=0;i<table[currindex].length;i++){
-			solve(currindex+1,calculatedString+table[currchar]);
+			solve(currindex+1,calculatedString+table[currchar][i]);
 			
 		}
 	}
